@@ -1,0 +1,205 @@
+.textoNosotros {
+  background-color: white;
+  padding: 5rem 5rem; }
+  .textoNosotros .textoNosotros--encabezado {
+    color: #0084ff;
+    font-family: Open Sans, sans-serif;
+    font-size: 1rem; }
+  .textoNosotros .textoNosotros--titular1 {
+    font-family: Playfair Display, serif;
+    color: black;
+    font-size: 2rem; }
+  .textoNosotros .textoNosotros--titular2 {
+    font-family: Playfair Display, serif;
+    color: black;
+    font-size: 2.5rem; }
+  .textoNosotros p {
+    padding-top: 1rem;
+    color: black;
+    font-family: Open Sans, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500; }
+
+.fondoProductos {
+  background-color: white; }
+
+.titularProductos {
+  font-family: Playfair Display, serif;
+  padding: 2rem; }
+
+.productosSection {
+  display: flex;
+  flex-wrap: wrap; }
+  .productosSection .contenedorProducto {
+    margin: 1.875rem;
+    display: inline-block; }
+    .productosSection .contenedorProducto .tituloProducto {
+      font-family: Playfair Display, serif;
+      font-size: 1.25rem; }
+    .productosSection .contenedorProducto .fotoVehiculo {
+      width: 200px; }
+
+.suscripcionNewsletter {
+  background-color: #0084ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .suscripcionNewsletter .tituloNewsletter {
+    color: white;
+    font-family: Playfair Display, serif;
+    font-size: 1.25rem;
+    text-align: center;
+    padding-top: 3.125rem;
+    margin-bottom: 1.25rem; }
+  .suscripcionNewsletter .btn {
+    font-family: Open Sans, sans-serif;
+    margin-bottom: 3.125rem; }
+
+.form {
+  padding: 5rem; }
+
+.planDeahorro {
+  background-color: white;
+  padding: 5rem; }
+
+.titulo {
+  font-family: Playfair Display, serif;
+  color: black;
+  font-size: 2rem;
+  padding-top: 3rem; }
+
+.texto {
+  font-family: Open Sans, sans-serif;
+  color: black;
+  font-size: 1rem; }
+
+.body {
+  background-color: black; }
+
+.header--logo {
+  padding: 1rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.productosIndex {
+  display: flex;
+  padding: 3rem 10rem;
+  align-items: center; }
+  .productosIndex .tituloIndex {
+    color: white;
+    font-family: Playfair Display, serif;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    text-align: center; }
+  .productosIndex .productosIndex--article {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .productosIndex .productosIndex--article .productosIndex--article__texto {
+      font-family: Playfair Display, serif;
+      color: white;
+      font-size: 2rem;
+      padding-top: 1rem;
+      padding-bottom: 3rem; }
+  .productosIndex .productosIndex--article__imagen {
+    transition: transform 1s; }
+  .productosIndex .productosIndex--article__imagen:hover {
+    transform: scale(1.1, 1.1); }
+
+.serviciosIndex {
+  display: flex;
+  flex-wrap: wrap; }
+  .serviciosIndex .serviciosIndex--article {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .serviciosIndex .serviciosIndex--imagen {
+    width: 25rem; }
+  .serviciosIndex .serviciosIndex--article__cuadroBlanco {
+    background-color: white;
+    font-family: Playfair Display, serif;
+    width: 25rem;
+    padding: 2rem; }
+    .serviciosIndex .serviciosIndex--article__cuadroBlanco .btn-light {
+      background-color: #0084ff;
+      font-family: Open Sans, sans-serif;
+      color: white;
+      transition: transform 0.5s; }
+    .serviciosIndex .serviciosIndex--article__cuadroBlanco .btn-light:hover {
+      transform: scale(1.1);
+      background-color: darkslategray; }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+  background-color: black; }
+  .footer .footer--contacto div {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    .footer .footer--contacto div .footer--contacto__texto {
+      color: white;
+      font-family: Open Sans, sans-serif;
+      font-weight: 200;
+      text-align: center;
+      padding-left: 1rem;
+      display: inline-block; }
+    .footer .footer--contacto div .footer--contacto__icono {
+      width: 1rem; }
+  .footer .footer--seguinos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .footer .footer--seguinos .footer--seguinos__texto {
+      color: white;
+      font-family: Open Sans, sans-serif;
+      font-weight: 200;
+      text-align: center;
+      padding-left: 1rem;
+      display: inline-block; }
+
+@media only screen and (min-width: 1024px) {
+  .carouselslide {
+    display: block; }
+  .productosIndex {
+    display: flex;
+    padding: 3rem 10rem;
+    align-items: center; }
+    .productosIndex .productosIndex--article {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .productosIndex .productosIndex--article .productosIndex--article__texto {
+        font-family: Playfair Display, serif;
+        color: white;
+        font-size: 2rem;
+        padding-top: 2rem; }
+  .serviciosIndex .serviciosIndex--article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; }
+  .serviciosIndex .serviciosIndex--imagen {
+    width: 17rem;
+    margin-left: 5rem; }
+  .serviciosIndex .serviciosIndex--article__cuadroBlanco {
+    background-color: white;
+    font-family: Playfair Display, serif;
+    width: 18rem;
+    height: 8.9rem; }
+    .serviciosIndex .serviciosIndex--article__cuadroBlanco .serviciosIndex--article__texto {
+      font-size: 1.5rem; }
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px; }
+    .footer .footer--seguinos {
+      display: flex;
+      flex-direction: column;
+      align-items: center; } }
