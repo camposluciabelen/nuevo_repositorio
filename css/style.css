@@ -7,9 +7,6 @@
   justify-content: space-between;
   align-items: center; }
 
-.navbar {
-  padding: 5rem;}
-
 .productosIndex {
   display: flex;
   padding: 3rem 10rem;
@@ -87,6 +84,85 @@
       display: inline-block; }
     .footer .footer--contacto div .footer--contacto__icono {
       width: 1rem; }
+
+/*NOSOTROS*/
+.textoNosotros {
+  background-color: white;
+  padding: 5rem 5rem; }
+  .textoNosotros .textoNosotros--encabezado {
+    color: #0084ff;
+    font-family: Open Sans, sans-serif;
+    font-size: 1rem; }
+  .textoNosotros .textoNosotros--titular1 {
+    font-family: Playfair Display, serif;
+    color: black;
+    font-size: 2rem; }
+  .textoNosotros .textoNosotros--titular2 {
+    font-family: Playfair Display, serif;
+    color: black;
+    font-size: 2.5rem; }
+  .textoNosotros p {
+    padding-top: 1rem;
+    color: black;
+    font-family: Open Sans, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500; }
+
+/*PROCTUVOS*/
+.fondoProductos {
+  background-color: white; }
+
+.titularProductos {
+  font-family: Playfair Display, serif;
+  padding: 2rem; }
+
+.productosSection {
+  display: flex;
+  flex-wrap: wrap; }
+  .productosSection .contenedorProducto {
+    margin: 1.875rem;
+    display: inline-block; }
+    .productosSection .contenedorProducto .tituloProducto {
+      font-family: Playfair Display, serif;
+      font-size: 1.25rem; }
+    .productosSection .contenedorProducto .fotoVehiculo {
+      width: 200px; }
+
+.suscripcionNewsletter {
+  background-color: #0084ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .suscripcionNewsletter .tituloNewsletter {
+    color: white;
+    font-family: Playfair Display, serif;
+    font-size: 1.25rem;
+    text-align: center;
+    padding-top: 3.125rem;
+    margin-bottom: 1.25rem; }
+  .suscripcionNewsletter .btn {
+    font-family: Open Sans, sans-serif;
+    margin-bottom: 3.125rem; }
+
+/*FINANCIACION*/
+.planDeahorro {
+  background-color: white;
+  padding: 5rem; }
+
+.titulo {
+  font-family: Playfair Display, serif;
+  color: black;
+  font-size: 2rem;
+  padding-top: 3rem; }
+
+.texto {
+  font-family: Open Sans, sans-serif;
+  color: black;
+  font-size: 1rem; }
+
+/*CONTACTO*/
+.form {
+  padding: 5rem; }
 
 @media only screen and (min-width: 1024px) {
   .carouselslide {
