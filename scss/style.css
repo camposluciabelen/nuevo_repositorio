@@ -1,1 +1,358 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.textoNosotros {
+  background-color: white;
+  padding: 5rem 5rem;
+}
+
+.textoNosotros .textoNosotros--encabezado {
+  color: #0084ff;
+  font-family: Open Sans, sans-serif;
+  font-size: 1rem;
+}
+
+.textoNosotros .textoNosotros--titular1 {
+  font-family: Playfair Display, serif;
+  color: black;
+  font-size: 2rem;
+}
+
+.textoNosotros .textoNosotros--titular2 {
+  font-family: Playfair Display, serif;
+  color: black;
+  font-size: 2.5rem;
+}
+
+.textoNosotros p {
+  padding-top: 1rem;
+  color: black;
+  font-family: Open Sans, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.fondoProductos {
+  background-color: white;
+}
+
+.titularProductos {
+  font-family: Playfair Display, serif;
+  padding: 2rem;
+}
+
+.productosSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.productosSection .contenedorProducto {
+  margin: 1.875rem;
+  display: inline-block;
+}
+
+.productosSection .contenedorProducto .tituloProducto {
+  font-family: Playfair Display, serif;
+  font-size: 1.25rem;
+}
+
+.productosSection .contenedorProducto .fotoVehiculo {
+  width: 200px;
+}
+
+.suscripcionNewsletter {
+  background-color: #0084ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.suscripcionNewsletter .tituloNewsletter {
+  color: white;
+  font-family: Playfair Display, serif;
+  font-size: 1.25rem;
+  text-align: center;
+  padding-top: 3.125rem;
+  margin-bottom: 1.25rem;
+}
+
+.suscripcionNewsletter .btn {
+  font-family: Open Sans, sans-serif;
+  margin-bottom: 3.125rem;
+}
+
+.form {
+  padding: 5rem;
+}
+
+.planDeahorro {
+  background-color: white;
+  padding: 5rem;
+}
+
+.titulo {
+  font-family: Playfair Display, serif;
+  color: black;
+  font-size: 2rem;
+  padding-top: 3rem;
+}
+
+.texto {
+  font-family: Open Sans, sans-serif;
+  color: black;
+  font-size: 1rem;
+}
+
+.body {
+  background-color: black;
+}
+
+.header--logo {
+  padding: 1rem 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar {
+  padding: 5rem;
+  margin: 10rem;
+}
+
+.productosIndex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3rem 10rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.productosIndex .tituloIndex {
+  color: white;
+  font-family: Playfair Display, serif;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.productosIndex .productosIndex--article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.productosIndex .productosIndex--article .productosIndex--article__texto {
+  font-family: Playfair Display, serif;
+  color: white;
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+.productosIndex .productosIndex--article__imagen {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+.productosIndex .productosIndex--article__imagen:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+.serviciosIndex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.serviciosIndex .serviciosIndex--article {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.serviciosIndex .serviciosIndex--imagen {
+  width: 25rem;
+}
+
+.serviciosIndex .serviciosIndex--article__cuadroBlanco {
+  background-color: white;
+  font-family: Playfair Display, serif;
+  width: 25rem;
+  padding: 2rem;
+}
+
+.serviciosIndex .serviciosIndex--article__cuadroBlanco .btn-light {
+  background-color: #0084ff;
+  font-family: Open Sans, sans-serif;
+  color: white;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.serviciosIndex .serviciosIndex--article__cuadroBlanco .btn-light:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: darkslategray;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 3rem;
+  background-color: black;
+  /*     .footer--seguinos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .footer--seguinos__texto{
+            @include textoFooter;
+        }
+        
+    } */
+}
+
+.footer .footer--contacto div {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footer--contacto div .footer--contacto__texto {
+  color: white;
+  font-family: Open Sans, sans-serif;
+  font-weight: 200;
+  text-align: center;
+  padding-left: 1rem;
+  display: inline-block;
+}
+
+.footer .footer--contacto div .footer--contacto__icono {
+  width: 1rem;
+}
+
+@media only screen and (min-width: 1024px) {
+  .carouselslide {
+    display: block;
+  }
+  .productosIndex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 3rem 10rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .productosIndex .productosIndex--article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .productosIndex .productosIndex--article .productosIndex--article__texto {
+    font-family: Playfair Display, serif;
+    color: white;
+    font-size: 2rem;
+    padding-top: 2rem;
+  }
+  .serviciosIndex .serviciosIndex--article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .serviciosIndex .serviciosIndex--imagen {
+    width: 17rem;
+    margin-left: 5rem;
+  }
+  .serviciosIndex .serviciosIndex--article__cuadroBlanco {
+    background-color: white;
+    font-family: Playfair Display, serif;
+    width: 18rem;
+    height: 8.9rem;
+  }
+  .serviciosIndex .serviciosIndex--article__cuadroBlanco .serviciosIndex--article__texto {
+    font-size: 1.5rem;
+  }
+}
+
+/*     .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 40px;
+
+        .footer--seguinos{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+}
+ */
+/*# sourceMappingURL=style.css.map */
