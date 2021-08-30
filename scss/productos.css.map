@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "contacto.scss"
+        "productos.scss"
     ],
     "names": [],
-    "file": "contacto.css"
+    "file": "productos.css"
 }

@@ -1,3 +1,164 @@
+.body {
+  background-color: black;
+}
+
+.header--logo {
+  padding: 1rem 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carousel {
+  display: none;
+}
+
+.productosIndex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.productosIndex .tituloIndex {
+  color: white;
+  font-family: Playfair Display, serif;
+  font-size: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.productosIndex .productosIndex--article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.productosIndex .productosIndex--article .productosIndex--article__texto {
+  font-family: Playfair Display, serif;
+  color: white;
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+.productosIndex .productosIndex--article .productosIndex--article__texto:hover {
+  color: #0084ff;
+}
+
+.productosIndex .productosIndex--article__imagen {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+.productosIndex .productosIndex--article__imagen:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+.serviciosIndex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.serviciosIndex .serviciosIndex--article {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.serviciosIndex .serviciosIndex--imagen {
+  width: 25rem;
+}
+
+.serviciosIndex .serviciosIndex--article__cuadroBlanco {
+  background-color: white;
+  font-family: Playfair Display, serif;
+  width: 25rem;
+  padding: 2rem;
+  margin-right: 3rem;
+}
+
+.serviciosIndex .serviciosIndex--article__cuadroBlanco .btn-light {
+  background-color: #0084ff;
+  font-family: Open Sans, sans-serif;
+  color: white;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.serviciosIndex .serviciosIndex--article__cuadroBlanco .btn-light:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: darkslategray;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 3rem;
+  background-color: black;
+  color: white;
+  font-family: Open Sans, sans-serif;
+  font-weight: 200;
+  text-align: center;
+}
+
+.footer .footer--seguinos__logoRedes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*NOSOTROS*/
 .textoNosotros {
   background-color: white;
   padding: 5rem 5rem;
@@ -29,6 +190,7 @@
   font-weight: 500;
 }
 
+/*PRODUCTOS*/
 .fondoProductos {
   background-color: white;
 }
@@ -88,10 +250,7 @@
   margin-bottom: 3.125rem;
 }
 
-.form {
-  padding: 5rem;
-}
-
+/*FINANCIACION*/
 .planDeahorro {
   background-color: white;
   padding: 5rem;
@@ -110,177 +269,16 @@
   font-size: 1rem;
 }
 
-.body {
-  background-color: black;
-}
-
-.header--logo {
-  padding: 1rem 5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.navbar {
+/*CONTACTO*/
+.form {
   padding: 5rem;
 }
 
-.productosIndex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 3rem 10rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.productosIndex .tituloIndex {
-  color: white;
-  font-family: Playfair Display, serif;
-  font-size: 3rem;
-  padding-bottom: 2rem;
-  text-align: center;
-}
-
-.productosIndex .productosIndex--article {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.productosIndex .productosIndex--article .productosIndex--article__texto {
-  font-family: Playfair Display, serif;
-  color: white;
-  font-size: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 3rem;
-}
-
-.productosIndex .productosIndex--article__imagen {
-  -webkit-transition: -webkit-transform 1s;
-  transition: -webkit-transform 1s;
-  transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s;
-}
-
-.productosIndex .productosIndex--article__imagen:hover {
-  -webkit-transform: scale(1.1, 1.1);
-          transform: scale(1.1, 1.1);
-}
-
-.serviciosIndex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.serviciosIndex .serviciosIndex--article {
-  padding: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.serviciosIndex .serviciosIndex--imagen {
-  width: 25rem;
-}
-
-.serviciosIndex .serviciosIndex--article__cuadroBlanco {
-  background-color: white;
-  font-family: Playfair Display, serif;
-  width: 25rem;
-  padding: 2rem;
-}
-
-.serviciosIndex .serviciosIndex--article__cuadroBlanco .btn-light {
-  background-color: #0084ff;
-  font-family: Open Sans, sans-serif;
-  color: white;
-  -webkit-transition: -webkit-transform 0.5s;
-  transition: -webkit-transform 0.5s;
-  transition: transform 0.5s;
-  transition: transform 0.5s, -webkit-transform 0.5s;
-}
-
-.serviciosIndex .serviciosIndex--article__cuadroBlanco .btn-light:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  background-color: darkslategray;
-}
-
-.footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-top: 3rem;
-  background-color: black;
-  /*     .footer--seguinos{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
-        .footer--seguinos__texto{
-            @include textoFooter;
-        }
-        
-    } */
-}
-
-.footer .footer--contacto div {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.footer .footer--contacto div .footer--contacto__texto {
-  color: white;
-  font-family: Open Sans, sans-serif;
-  font-weight: 200;
-  text-align: center;
-  padding-left: 1rem;
-  display: inline-block;
-}
-
-.footer .footer--contacto div .footer--contacto__icono {
-  width: 1rem;
-}
-
 @media only screen and (min-width: 1024px) {
-  .carouselslide {
+  .navbar {
+    padding-left: 3.3rem;
+  }
+  .carousel {
     display: block;
   }
   .productosIndex {
@@ -291,6 +289,13 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .productosIndex .tituloIndex {
+    color: white;
+    font-family: Playfair Display, serif;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    text-align: center;
   }
   .productosIndex .productosIndex--article {
     display: -webkit-box;
@@ -338,20 +343,48 @@
   .serviciosIndex .serviciosIndex--article__cuadroBlanco .serviciosIndex--article__texto {
     font-size: 1.5rem;
   }
-}
-
-/*     .footer{
-        display: flex;
-        flex-direction: row;
+  .footer {
+    font-family: Open Sans, sans-serif;
+  }
+  .footer .footer--atajossitio {
+    background-color: #0084ff;
+    color: white;
+    font-size: 0.9rem;
+    margin: 0rem;
+  }
+  .footer .footer--parteinferior {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
         justify-content: space-around;
-        align-items: center;
-        padding: 40px;
-
-        .footer--seguinos{
-            display: flex;
+    padding: 40px;
+    font-size: 0.9rem;
+    font-family: Open Sans, sans-serif;
+  }
+  .footer .footer--parteinferior .footer--seguinos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
             align-items: center;
-        }
+  }
+  .footer .footer--parteinferior .footer--seguinos .footer--seguinos__logoRedes {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    letter-spacing: 0.9rem;
+    font-size: 1.5rem;
+  }
 }
- */
 /*# sourceMappingURL=style.css.map */
